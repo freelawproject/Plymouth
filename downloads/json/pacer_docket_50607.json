@@ -1,0 +1,201 @@
+{
+    "assigned_to_str": "Jon D. Levy", 
+    "case_name": "MCNAMARA v. HAWTHORN RETIREMENT GROUP LLC", 
+    "cause": "29:2615 Family and Medical Leave Act", 
+    "court_id": "med", 
+    "date_converted": null, 
+    "date_discharged": null, 
+    "date_filed": "2016-07-01", 
+    "date_terminated": "2016-09-16", 
+    "demand": "", 
+    "docket_entries": [
+        {
+            "date_filed": "2016-07-01", 
+            "description": "COMPLAINT against BANGOR ASSISTED LIVING LLC, HAWTHORN RETIREMENT GROUP LLC with Jury Demand PAYMENT OF FILING FEE DUE WITHIN 48 HOURS. IF FILING FEE IS BEING PAID WITH A CREDIT CARD, COUNSEL ARE INSTRUCTED TO LOGIN TO CM/ECF AND DOCKET Case Opening Filing Fee Paid FOUND IN THE Complaints and Other Initiating Documents CATEGORY. CHECK PAYMENTS DUE WITHIN 48 HOURS., filed by CLAUDINE MCNAMARA. Fee due by 7/5/2016. (Service of Process Deadline 9/29/2016)(sfw) (Entered: 07/05/2016)", 
+            "document_number": "1", 
+            "pacer_doc_id": "09101889862", 
+            "pacer_seq_no": "9"
+        }, 
+        {
+            "date_filed": "2016-07-01", 
+            "description": "CIVIL COVER SHEET. (sfw) (Entered: 07/05/2016)", 
+            "document_number": "2", 
+            "pacer_doc_id": "09101889865", 
+            "pacer_seq_no": "11"
+        }, 
+        {
+            "date_filed": "2016-07-05", 
+            "description": "Summons Issued as to BANGOR ASSISTED LIVING LLC, HAWTHORN RETIREMENT GROUP LLC. Counsel shall print the embossed summons and effect service in the manner in accordance with Fed.R.Civ.P.4. Note-If you are using Version 6 of Adobe Acrobat, be sure the PRINT WHAT field is set to DOCUMENTS AND COMMENTS (Click File, then Print to check this setting). (Attachments: # 1 Summons Issued as to Bangor Assisted Living LLC)(sfw) (Entered: 07/05/2016)", 
+            "document_number": "3", 
+            "pacer_doc_id": "09101889893", 
+            "pacer_seq_no": "13"
+        }, 
+        {
+            "date_filed": "2016-07-05", 
+            "description": "Filing Fee Paid via Credit Card ( Filing fee $ 400 receipt number 0100-1560815.), filed by CLAUDINE MCNAMARA.(HANSEN, CHAD) (Entered: 07/05/2016)", 
+            "document_number": null, 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }, 
+        {
+            "date_filed": "2016-07-13", 
+            "description": "SUMMONS Returned Executed by CLAUDINE MCNAMARA. BANGOR ASSISTED LIVING LLC served on 7/7/2016. (HANSEN, CHAD) (Entered: 07/13/2016)", 
+            "document_number": "4", 
+            "pacer_doc_id": "09101894312", 
+            "pacer_seq_no": "17"
+        }, 
+        {
+            "date_filed": "2016-07-13", 
+            "description": "SUMMONS Returned Executed by CLAUDINE MCNAMARA. HAWTHORN RETIREMENT GROUP LLC served on 7/7/2016. (HANSEN, CHAD) (Entered: 07/13/2016)", 
+            "document_number": "5", 
+            "pacer_doc_id": "09101894315", 
+            "pacer_seq_no": "19"
+        }, 
+        {
+            "date_filed": "2016-07-13", 
+            "description": "Set Answer Deadline for HAWTHORN RETIREMENT GROUP LLC and BANGOR ASSISTED LIVING LLC : Answer due by 7/28/2016. (akr) (Entered: 07/13/2016)", 
+            "document_number": null, 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }, 
+        {
+            "date_filed": "2016-07-26", 
+            "description": "Unopposed MOTION to Extend Time to File Answer re 1 Complaint,, by BANGOR ASSISTED LIVING LLC, HAWTHORN RETIREMENT GROUP LLC Responses due by 8/16/2016. (FRAME, GREGG) (Entered: 07/26/2016)", 
+            "document_number": "6", 
+            "pacer_doc_id": "09101900747", 
+            "pacer_seq_no": "23"
+        }, 
+        {
+            "date_filed": "2016-07-26", 
+            "description": "ORDER granting 6 Motion for Extension of Time to File Answer. Time extended to August 16, 2016. By MAGISTRATE JUDGE JOHN C. NIVISON. (NIVISON, JOHN) (Entered: 07/26/2016)", 
+            "document_number": "7", 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }, 
+        {
+            "date_filed": "2016-07-26", 
+            "description": "Reset Answer Deadline for BANGOR ASSISTED LIVING LLC, HAWTHORN RETIREMENT GROUP LLC pursuant to the Order at ECF #7: Answer due by 8/16/2016. (akr) (Entered: 07/26/2016)", 
+            "document_number": null, 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }, 
+        {
+            "date_filed": "2016-08-15", 
+            "description": "Unopposed MOTION to Extend Time to File Answer re 1 Complaint,, by BANGOR ASSISTED LIVING LLC, HAWTHORN RETIREMENT GROUP LLC Responses due by 9/6/2016. (FRAME, GREGG) (Entered: 08/15/2016)", 
+            "document_number": "8", 
+            "pacer_doc_id": "09101910659", 
+            "pacer_seq_no": "37"
+        }, 
+        {
+            "date_filed": "2016-08-16", 
+            "description": "ORDER granting 8 Motion for Extension of Time to File Answer. Time extended to September 5, 2016. By MAGISTRATE JUDGE JOHN C. NIVISON. (NIVISON, JOHN) (Entered: 08/16/2016)", 
+            "document_number": "9", 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }, 
+        {
+            "date_filed": "2016-08-16", 
+            "description": "Reset Answer Deadline pursuant to the Order at ECF #9 for BANGOR ASSISTED LIVING LLC, HAWTHORN RETIREMENT GROUP LLC : Answer due by 9/5/2016. (akr) (Entered: 08/16/2016)", 
+            "document_number": null, 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }, 
+        {
+            "date_filed": "2016-09-06", 
+            "description": "set Deadlines Pursuant to the Court's Order on 8/16/16- The defedants' answer was due on 9/5/16: Check for Filing of a Motion for Default on 10/5/2016. (mjlt) (Entered: 09/06/2016)", 
+            "document_number": null, 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }, 
+        {
+            "date_filed": "2016-09-06", 
+            "description": "Consent MOTION to Extend Time to File Answer re 1 Complaint,, by CLAUDINE MCNAMARA Responses due by 9/27/2016. (HANSEN, CHAD) (Entered: 09/06/2016)", 
+            "document_number": "10", 
+            "pacer_doc_id": "09101920090", 
+            "pacer_seq_no": "55"
+        }, 
+        {
+            "date_filed": "2016-09-06", 
+            "description": "ORDER granting 10 Motion to Extend Time to File Answer; time extended to September 20, 2016. By MAGISTRATE JUDGE JOHN C. NIVISON. (NIVISON, JOHN) (Entered: 09/06/2016)", 
+            "document_number": "11", 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }, 
+        {
+            "date_filed": "2016-09-06", 
+            "description": "Set Answer Deadline for HAWTHORN RETIREMENT GROUP LLC and BANGOR ASSISTED LIVING LLC Per order at ECF no. 11: Answer due by 9/20/2016. (ccs) (Entered: 09/07/2016)", 
+            "document_number": null, 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }, 
+        {
+            "date_filed": "2016-09-16", 
+            "description": "Notice of Voluntary Dismissal by CLAUDINE MCNAMARA (HANSEN, CHAD) (Entered: 09/16/2016)", 
+            "document_number": "12", 
+            "pacer_doc_id": "09101925834", 
+            "pacer_seq_no": "67"
+        }
+    ], 
+    "docket_number": "1:16-cv-00361", 
+    "jurisdiction": "Federal Question", 
+    "jury_demand": "Plaintiff", 
+    "mdl_status": "", 
+    "nature_of_suit": "751 Labor: Family and Medical Leave Act", 
+    "parties": [
+        {
+            "attorneys": [
+                {
+                    "contact": "MAINE EMPLOYEE RIGHTS GROUP\n92 EXCHANGE STREET\nSECOND FLOOR\nPORTLAND, ME 04101\n207-874-0909\nEmail: chansen@maineemployeerights.com\n", 
+                    "name": "CHAD T. HANSEN", 
+                    "roles": [
+                        "LEAD ATTORNEY", 
+                        "ATTORNEY TO BE NOTICED"
+                    ]
+                }, 
+                {
+                    "contact": "MAINE EMPLOYEE RIGHTS GROUP\n92 EXCHANGE STREET\nSECOND FLOOR\nPORTLAND, ME 04101\n207-874-0909\nEmail: pthompson@maineemployeerights.com\n", 
+                    "name": "PETER L. THOMPSON", 
+                    "roles": [
+                        "LEAD ATTORNEY", 
+                        "ATTORNEY TO BE NOTICED"
+                    ]
+                }
+            ], 
+            "date_terminated": null, 
+            "extra_info": "", 
+            "name": "CLAUDINE MCNAMARA", 
+            "type": "Plaintiff"
+        }, 
+        {
+            "attorneys": [
+                {
+                    "contact": "TAYLOR, MCCORMACK & FRAME, LLC\n30 MILK STREET\n5TH FLOOR\nPORTLAND, ME 04101\n207-828-2005\nEmail: gframe@tmfattorneys.com\n", 
+                    "name": "GREGG R. FRAME", 
+                    "roles": [
+                        "ATTORNEY TO BE NOTICED"
+                    ]
+                }
+            ], 
+            "date_terminated": null, 
+            "extra_info": "", 
+            "name": "HAWTHORN RETIREMENT GROUP LLC", 
+            "type": "Defendant"
+        }, 
+        {
+            "attorneys": [
+                {
+                    "contact": "TAYLOR, MCCORMACK & FRAME, LLC\n30 MILK STREET\n5TH FLOOR\nPORTLAND, ME 04101\n207-828-2005\nEmail: gframe@tmfattorneys.com\n", 
+                    "name": "GREGG R. FRAME", 
+                    "roles": [
+                        "ATTORNEY TO BE NOTICED"
+                    ]
+                }
+            ], 
+            "date_terminated": null, 
+            "extra_info": "doing business as\nWINTERBERRY HEIGHTS ASSISTED LIVING & MEMORY CARE", 
+            "name": "BANGOR ASSISTED LIVING LLC", 
+            "type": "Defendant"
+        }
+    ], 
+    "referred_to_str": "John C. Nivison"
+}

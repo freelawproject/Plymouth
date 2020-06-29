@@ -1,0 +1,119 @@
+{
+    "assigned_to_str": "Nancy Torresen", 
+    "case_name": "HOWARD v. ETHICON INC", 
+    "cause": "28:1332 Diversity-Product Liability", 
+    "court_id": "med", 
+    "date_converted": null, 
+    "date_discharged": null, 
+    "date_filed": "2016-07-13", 
+    "date_terminated": "2016-07-28", 
+    "demand": "$1,000,000", 
+    "docket_entries": [
+        {
+            "date_filed": "2016-07-13", 
+            "description": "COMPLAINT against ETHICON INC, JOHNSON & JOHNSON with Jury Demand PAYMENT OF FILING FEE DUE WITHIN 48 HOURS. IF FILING FEE IS BEING PAID WITH A CREDIT CARD, COUNSEL ARE INSTRUCTED TO LOGIN TO CM/ECF AND DOCKET Case Opening Filing Fee Paid FOUND IN THE Complaints and Other Initiating Documents CATEGORY. CHECK PAYMENTS DUE WITHIN 48 HOURS., filed by PATRICIA HOWARD. Fee due by 7/15/2016. (Service of Process Deadline 10/11/2016)(sfw) (Entered: 07/15/2016)", 
+            "document_number": "1", 
+            "pacer_doc_id": "09101895631", 
+            "pacer_seq_no": "7"
+        }, 
+        {
+            "date_filed": "2016-07-13", 
+            "description": "CIVIL COVER SHEET. (sfw) (Entered: 07/15/2016)", 
+            "document_number": "2", 
+            "pacer_doc_id": "09101895634", 
+            "pacer_seq_no": "9"
+        }, 
+        {
+            "date_filed": "2016-07-15", 
+            "description": "Summons Issued as to ETHICON INC, JOHNSON & JOHNSON. Counsel shall print the embossed summons and effect service in the manner in accordance with Fed.R.Civ.P.4. Note-If you are using Version 6 of Adobe Acrobat, be sure the PRINT WHAT field is set to DOCUMENTS AND COMMENTS (Click File, then Print to check this setting). (Attachments: # 1 Summons Issued as to Johnson & Johnson)(sfw) (Entered: 07/15/2016)", 
+            "document_number": "3", 
+            "pacer_doc_id": "09101895639", 
+            "pacer_seq_no": "11"
+        }, 
+        {
+            "date_filed": "2016-07-15", 
+            "description": "LETTER sent to MDL Panel. (sfw) (Entered: 07/15/2016)", 
+            "document_number": "4", 
+            "pacer_doc_id": "09101895643", 
+            "pacer_seq_no": "13"
+        }, 
+        {
+            "date_filed": "2016-07-15", 
+            "description": "Filing Fee Paid via Credit Card ( Filing fee $ 400 receipt number 0100-1565537.), filed by PATRICIA HOWARD.(FITZGERALD, KEVIN) (Entered: 07/15/2016)", 
+            "document_number": null, 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }, 
+        {
+            "date_filed": "2016-07-28", 
+            "description": "MINUTE ORDER - TO INVOLVED CLERKS - Conditional Transfer Order (CTO-214) Finalized on 7/28/16. Please see pleading ( 2360 in MDL No. 2327, 3 in ME/1:16-cv-00369, 3 in ME/2:16-cv-00366, 3 in ME/2:16-cv-00367, 3 in ME/2:16-cv-00368, 3 in ME/2:16-cv-00370).As stipulated in Rule 7.1(c) of the Rules of Procedure of the Judicial Panel on Multidistrict Litigation, transmittal of the order has been stayed 7 days to give any party an opportunity to oppose the transfer.The 7-day period has now elapsed, no opposition was received, and the order is directed to the Clerk of the United States District Court for the S.D. West Virginia for filing. The Panel governing statute, 28 U.S.C. 1407, requires that the transferee clerk transmit a certified copy of the Panel order to transfer to the clerk of the district court from which the action is being transferred.Signed by Clerk of the Panel Jeffery N. Luthi on 7/28/2016.(jwr) (Entered: 07/28/2016)", 
+            "document_number": "5", 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }, 
+        {
+            "date_filed": "2016-07-28", 
+            "description": "MDL CONDITIONAL TRANSFER ORDER (jwr) (Entered: 07/28/2016)", 
+            "document_number": "6", 
+            "pacer_doc_id": "09101901698", 
+            "pacer_seq_no": "19"
+        }, 
+        {
+            "date_filed": "2016-07-28", 
+            "description": "MDL CERTIFIED TRANSFER ORDER (jwr) (Entered: 07/28/2016)", 
+            "document_number": "7", 
+            "pacer_doc_id": "09101901745", 
+            "pacer_seq_no": "23"
+        }, 
+        {
+            "date_filed": "2016-07-28", 
+            "description": "Multidistrict Litigation (MDL)case electronically transferred to West Virginia Southern. (jwr) (Entered: 07/28/2016)", 
+            "document_number": "8", 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }, 
+        {
+            "date_filed": "2016-07-28", 
+            "description": "ACKNOWLEDGEMENT OF RECEIPT of Electronic Civil Case Transfer. Case electronically transferred to West Virginia Southern has been opened on 7/28/16 as case 2:16-cv-6759. (jwr) (Entered: 07/28/2016)", 
+            "document_number": "9", 
+            "pacer_doc_id": null, 
+            "pacer_seq_no": null
+        }
+    ], 
+    "docket_number": "1:16-cv-00369", 
+    "jurisdiction": "Diversity", 
+    "jury_demand": "Plaintiff", 
+    "mdl_status": "", 
+    "nature_of_suit": "367 Personal Injury: Health Care/Pharmaceutical Personal Injury Product Liability", 
+    "parties": [
+        {
+            "attorneys": [
+                {
+                    "contact": "FITZGERALD LAW GROUP\n120 EXCHANGE STREET\nSUITE 200\nPORTLAND, ME 04101\n207-874-7407\nEmail: kfitzgerald@fitz-lawgroup.com\n", 
+                    "name": "KEVIN M. FITZGERALD", 
+                    "roles": [
+                        "LEAD ATTORNEY", 
+                        "ATTORNEY TO BE NOTICED"
+                    ]
+                }
+            ], 
+            "date_terminated": null, 
+            "extra_info": "", 
+            "name": "PATRICIA HOWARD", 
+            "type": "Plaintiff"
+        }, 
+        {
+            "date_terminated": null, 
+            "extra_info": "", 
+            "name": "ETHICON INC", 
+            "type": "Defendant"
+        }, 
+        {
+            "date_terminated": null, 
+            "extra_info": "", 
+            "name": "JOHNSON & JOHNSON", 
+            "type": "Defendant"
+        }
+    ], 
+    "referred_to_str": "John C. Nivison"
+}
