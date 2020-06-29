@@ -2,6 +2,7 @@ import json
 import public_config as c
 import logging
 import argparse
+import shutil
 from tinydb import TinyDB, Query
 
 
@@ -30,16 +31,12 @@ class PlymouthState(object):
     s = PacerSession(username=c.PACER_USERNAME, password=c.PACER_PASSWORD)
     results = []
 
-    def docket_to_dn(self, case):
-        return "".join(
-            [case["OFFICE"], ":", case["DOCKET"][:2], "-cv-", case["DOCKET"][3:]]
-        )
+    def get_pacer_case_ids(self):
+        """Find PACER Case IDs from iQuery
 
-    def write_to_file(self):
-        with open("adhoc/pacer_data.json", "w") as write_file:
-            json.dump(self.results, write_file, indent=4)
+        :return: None
+        """
 
-    def get_pacer_court_ids(self):
         q = Query()
         db = TinyDB("db/master.json")
         fjc_table = db.table("fjc")
@@ -53,16 +50,15 @@ class PlymouthState(object):
             )
 
     def get_docket_json(self):
-        s = PacerSession(username=c.PACER_USERNAME, password=c.PACER_PASSWORD)
+        """Download docket to disk from Pacer
+
+        :return: None
+        """
         q = Query()
         db = TinyDB("db/master.json")
         fjc_table = db.table("fjc")
-        print "docket"
-        for row in fjc_table.search((q.JSON == "False")):
-            print "ROW", row
-            # print row['COURT'], row['PACER_CASE_ID']
-            # break
-            rep = DocketReport(row["COURT"], s)
+        for row in fjc_table.search(~(q.PACER_CASE_ID == "") & (q.JSON == "False")):
+            rep = DocketReport(row["COURT"], self.s)
             rep.query(
                 row["PACER_CASE_ID"],
                 show_parties_and_counsel=True,
@@ -87,19 +83,22 @@ class PlymouthState(object):
                 },
                 doc_ids=[row.doc_id],
             )
-            break
-        print "end"
+
+        logging.info("Finished collecting JSON and HTML")
 
     def download_pdfs(self):
-        s = PacerSession(username=c.PACER_USERNAME, password=c.PACER_PASSWORD)
+        """Download the first (presumably complaint) PDF to downlaods dir.
+
+        :return: None
+        """
         q = Query()
         db = TinyDB("db/master.json")
         fjc_table = db.table("fjc")
-        for row in fjc_table.search((q.PDF == "False") & (q.pacer_doc_id).exists()):
+        for row in fjc_table.search((q.JSON == "True") & (q.PDF == "False")):
             logging.info(
                 "Collecting PDF #%s, in %s" % (row["PACER_CASE_ID"], row["TITLE"])
             )
-            report = FreeOpinionReport(row["COURT"], s)
+            report = FreeOpinionReport(row["COURT"], self.s)
             r = report.download_pdf(row["PACER_CASE_ID"], row["pacer_doc_id"])
             with open(
                 "downloads/pdf/pacer_complaint_%s.pdf" % row["PACER_CASE_ID"], "w"
@@ -115,13 +114,23 @@ class PlymouthState(object):
 
 
 def get_pacer_ids():
+    """Use PACER iQuery to Identify PACER unique IDs
+
+    :return: None
+    """
+
     logging.info("Begin collecting PACER CASE IDS")
 
     p = PlymouthState()
-    p.get_pacer_court_ids()
+    p.get_pacer_case_ids()
 
 
 def download_json_html():
+    """Scrape HTML and JSON from Pacer
+
+    Save resp from juriscraper to download/JSON & HTML dir
+    :return: None
+    """
     logging.info("Begin collecting Dockets")
 
     p = PlymouthState()
@@ -129,6 +138,10 @@ def download_json_html():
 
 
 def get_pdfs():
+    """Collect PDF from Pacer
+
+    :return: None
+    """
     logging.info("Begin collecting PDFS")
 
     p = PlymouthState()
@@ -136,31 +149,20 @@ def get_pdfs():
 
 
 def zip_files():
-    import shutil
+    """Zip the HTML, PDF and JSON Directories
+
+    :return: None
+    """
 
     shutil.make_archive("downloads/zip/html_files", "zip", "downloads/html/")
     shutil.make_archive("downloads/zip/pdf_files", "zip", "downloads/pdf/")
     shutil.make_archive("downloads/zip/json_files", "zip", "downloads/json/")
 
-def testing():
-    print "Test"
-
-    q = Query()
-    db = TinyDB("db/master.json")
-    fjc_table = db.table("fjc")
-    for row in fjc_table:
-        print row
-    # x = fjc_table.search((q.YEAR == "2012"))
-    # print len(x)
-    # for row in fjc_table.search((q.PDF == "False") & (~ (q.YEAR == "2017"))):
-    #     print row['YEAR'], row
-
 
 class Command(object):
-    help = "Collect cases for Plymouth State"
+    help = "Collect cases for Plymouth State client project"
 
     VALID_ACTIONS = {
-        "testing": testing,
         "get-pacer-ids": get_pacer_ids,
         "get-dockets": download_json_html,
         "get-pdfs": get_pdfs,
