@@ -1,0 +1,5 @@
+
+# ADD in username and password
+
+PACER_USERNAME = "REPLACE ME"
+PACER_PASSWORD = "REPLACE ME"
